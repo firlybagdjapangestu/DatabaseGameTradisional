@@ -1,0 +1,980 @@
+fileFormatVersion: 2
+guid: 5bec58b3b23b2f945b4d2e40c0f2493c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5656954610777813324
+    second: Sticker_0
+  - first:
+      213: 6616506971803290257
+    second: Sticker_1
+  - first:
+      213: -6652201895273594294
+    second: Sticker_2
+  - first:
+      213: 4866872948790221758
+    second: Sticker_3
+  - first:
+      213: -86272938267427638
+    second: Sticker_4
+  - first:
+      213: 4112071875864167587
+    second: Sticker_5
+  - first:
+      213: 1889917552993484824
+    second: Sticker_6
+  - first:
+      213: -3794195255884983014
+    second: Sticker_7
+  - first:
+      213: -1844637857316687797
+    second: Sticker_8
+  - first:
+      213: -2869446949195182657
+    second: Sticker_9
+  - first:
+      213: 418003608433533992
+    second: Sticker_10
+  - first:
+      213: -5125529103982953316
+    second: Sticker_11
+  - first:
+      213: -351032189144219990
+    second: Sticker_12
+  - first:
+      213: 3182621079156960752
+    second: Sticker_13
+  - first:
+      213: -8088886582209515610
+    second: Sticker_14
+  - first:
+      213: -7845301856417994748
+    second: Sticker_15
+  - first:
+      213: -3965841795072520497
+    second: Sticker_16
+  - first:
+      213: 1815983373197811740
+    second: Sticker_17
+  - first:
+      213: 8614166254580080728
+    second: Sticker_18
+  - first:
+      213: 1784371970971848960
+    second: Sticker_19
+  - first:
+      213: 3890738617629783737
+    second: Sticker_20
+  - first:
+      213: -3642099805223761580
+    second: Sticker_21
+  - first:
+      213: -3273136935251622752
+    second: Sticker_22
+  - first:
+      213: -8642380902046883109
+    second: Sticker_23
+  - first:
+      213: 6991222448069680964
+    second: Sticker_24
+  - first:
+      213: -4260836783065351955
+    second: Sticker_25
+  - first:
+      213: 1081146467762506290
+    second: Sticker_26
+  - first:
+      213: -3420756311069963258
+    second: Sticker_27
+  - first:
+      213: -7222956583236744944
+    second: Sticker_28
+  - first:
+      213: 7215269840184264282
+    second: Sticker_29
+  - first:
+      213: 975459098667118261
+    second: Sticker_30
+  - first:
+      213: -191549258941442513
+    second: Sticker_31
+  - first:
+      213: -5019451023643645166
+    second: Sticker_32
+  - first:
+      213: 5133250986931915987
+    second: Sticker_33
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 150
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sticker_0
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 2932
+        width: 382
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c417be52f3a818e40800000000000000
+      internalID: 5656954610777813324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sticker_1
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 2962
+        width: 424
+        height: 473
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a0b3cf80e82db50800000000000000
+      internalID: 6616506971803290257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sticker_2
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 2960
+        width: 441
+        height: 482
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4289020f91aea3a0800000000000000
+      internalID: -6652201895273594294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sticker_3
+      rect:
+        serializedVersion: 2
+        x: 2482
+        y: 3037
+        width: 473
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb599f392b9a8340800000000000000
+      internalID: 4866872948790221758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sticker_4
+      rect:
+        serializedVersion: 2
+        x: 3278
+        y: 2955
+        width: 378
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acc37d0483f7dcef0800000000000000
+      internalID: -86272938267427638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sticker_5
+      rect:
+        serializedVersion: 2
+        x: 3586
+        y: 3125
+        width: 97
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a402cb9593011930800000000000000
+      internalID: 4112071875864167587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sticker_6
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 2256
+        width: 454
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810c3f050065a3a10800000000000000
+      internalID: 1889917552993484824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sticker_7
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 2269
+        width: 448
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a15d08c648f485bc0800000000000000
+      internalID: -3794195255884983014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sticker_8
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 2280
+        width: 354
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b40b66f54a78666e0800000000000000
+      internalID: -1844637857316687797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sticker_9
+      rect:
+        serializedVersion: 2
+        x: 2495
+        y: 2259
+        width: 480
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd8463e33dad28d0800000000000000
+      internalID: -2869446949195182657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sticker_10
+      rect:
+        serializedVersion: 2
+        x: 3273
+        y: 2241
+        width: 437
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8242383311c0dc500800000000000000
+      internalID: 418003608433533992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sticker_11
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 1548
+        width: 439
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c7b27af667ed8b0800000000000000
+      internalID: -5125529103982953316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sticker_12
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 1617
+        width: 500
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaeb4557512e02bf0800000000000000
+      internalID: -351032189144219990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sticker_13
+      rect:
+        serializedVersion: 2
+        x: 1825
+        y: 1611
+        width: 469
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd22dd5201fa2c20800000000000000
+      internalID: 3182621079156960752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sticker_14
+      rect:
+        serializedVersion: 2
+        x: 2014
+        y: 1978
+        width: 45
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af6afe92808ebf80800000000000000
+      internalID: -8088886582209515610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sticker_15
+      rect:
+        serializedVersion: 2
+        x: 2187
+        y: 1966
+        width: 75
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4082e7c1783ef1390800000000000000
+      internalID: -7845301856417994748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sticker_16
+      rect:
+        serializedVersion: 2
+        x: 2492
+        y: 1553
+        width: 488
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fce0e4936ef76f8c0800000000000000
+      internalID: -3965841795072520497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sticker_17
+      rect:
+        serializedVersion: 2
+        x: 3247
+        y: 1545
+        width: 482
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c10a875a14ba33910800000000000000
+      internalID: 1815983373197811740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sticker_18
+      rect:
+        serializedVersion: 2
+        x: 2239
+        y: 1843
+        width: 64
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8502768919aab8770800000000000000
+      internalID: 8614166254580080728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sticker_19
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 1606
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 001d0f48adc53c810800000000000000
+      internalID: 1784371970971848960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sticker_20
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 1573
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b6b7b1a82eaef530800000000000000
+      internalID: 3890738617629783737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sticker_21
+      rect:
+        serializedVersion: 2
+        x: 2119
+        y: 1570
+        width: 45
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4594e191689a47dc0800000000000000
+      internalID: -3642099805223761580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sticker_22
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 1582
+        width: 118
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a4cd199c4b7392d0800000000000000
+      internalID: -3273136935251622752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sticker_23
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 861
+        width: 482
+        height: 469
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd220efdb58101880800000000000000
+      internalID: -8642380902046883109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sticker_24
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 923
+        width: 487
+        height: 436
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44f1ee286cfc50160800000000000000
+      internalID: 6991222448069680964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sticker_25
+      rect:
+        serializedVersion: 2
+        x: 1816
+        y: 904
+        width: 502
+        height: 431
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de8b87b45877ed4c0800000000000000
+      internalID: -4260836783065351955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sticker_26
+      rect:
+        serializedVersion: 2
+        x: 2537
+        y: 883
+        width: 440
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a0729fbf0010f00800000000000000
+      internalID: 1081146467762506290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sticker_27
+      rect:
+        serializedVersion: 2
+        x: 3284
+        y: 906
+        width: 477
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ccf7f42480780d0800000000000000
+      internalID: -3420756311069963258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sticker_28
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 268
+        width: 490
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 019ca14a147e2cb90800000000000000
+      internalID: -7222956583236744944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sticker_29
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 280
+        width: 485
+        height: 393
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a56c5c601b9c12460800000000000000
+      internalID: 7215269840184264282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sticker_30
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 236
+        width: 426
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bee9fcc1e6898d00800000000000000
+      internalID: 975459098667118261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sticker_31
+      rect:
+        serializedVersion: 2
+        x: 2534
+        y: 231
+        width: 443
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f265ecfb6fa775df0800000000000000
+      internalID: -191549258941442513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sticker_32
+      rect:
+        serializedVersion: 2
+        x: 3291
+        y: 424
+        width: 62
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21bef3063e3575ab0800000000000000
+      internalID: -5019451023643645166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sticker_33
+      rect:
+        serializedVersion: 2
+        x: 3293
+        y: 229
+        width: 466
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc00035398fc3740800000000000000
+      internalID: 5133250986931915987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

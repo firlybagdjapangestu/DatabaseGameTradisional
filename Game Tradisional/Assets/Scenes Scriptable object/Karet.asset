@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff8b7512c4de7d2459dcee203b7dee4f, type: 3}
+  m_Name: Karet
+  m_EditorClassIdentifier: 
+  sceneTitle: Karet
+  sceneImage: {fileID: 0}
+  sceneDescription: Adu biji karet adalah permainan tradisional yang dimainkan dengan
+    menggunakan biji karet untuk saling memukul dan mengeluarkan biji karet lawan
+    dari area permainan. Setiap pemain melempar biji karet mereka dan mencoba menghancurkan
+    biji karet lawan untuk mendapatkan poin.
