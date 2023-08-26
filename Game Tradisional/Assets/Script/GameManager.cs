@@ -21,12 +21,17 @@ public class GameManager : MonoBehaviour
     }
     private void Start()
     {
+        SetTimeScale(1f);
+
         if (cameraTransform == null)
         {
             cameraTransform = Camera.main.transform;
         }
         initialPosition = cameraTransform.localPosition;
         audioSource = GetComponent<AudioSource>();
+
+        return;
+
         if(pauseImage == null && characterPause == null)
         {
             return;
@@ -40,23 +45,28 @@ public class GameManager : MonoBehaviour
         
     }
 
-    public void PuaseGame()
+    public void PauseGame()
     {
         if (!pauseImage.activeSelf)
         {
             pauseGame = true;
             pauseImage.SetActive(true);
-            characterPause.sprite = characterSprite[21];
+            //characterPause.sprite = characterSprite[21];
             Time.timeScale = 0f;
         }
         else
         {
-            pauseGame = true;
+            pauseGame = false;
             pauseImage.SetActive(false);
-            characterPause.sprite = characterSprite[21];
+            //characterPause.sprite = characterSprite[21];
             Time.timeScale = 1f;
         }
         
+    }
+
+    public void SetTimeScale(float  _scale)
+    {
+        Time.timeScale = _scale;
     }
     
     public void LoadScene(string sceneIndex)
@@ -111,6 +121,7 @@ public class GameManager : MonoBehaviour
     #region Sound Effect
     public void StartSfx(AudioClip sfx)
     {
+       
         audioSource.PlayOneShot(sfx);
     }
     #endregion

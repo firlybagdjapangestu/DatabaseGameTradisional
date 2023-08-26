@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Gasing
   m_EditorClassIdentifier: 
   sceneTitle: Gasing
-  sceneImage: {fileID: 0}
+  sceneImage: {fileID: 21300000, guid: d358e0e9ccb27c545b23fb4cb40a8bc7, type: 3}
   sceneDescription: "Permainan gasing adalah jenis permainan tradisional yang melibatkan
     pemutaran gasing-gasing di atas permukaan datar. Gasing-gasing ini biasanya terbuat
     dari kayu dan memiliki bentuk cembung di bagian bawahnya agar bisa berputar dengan

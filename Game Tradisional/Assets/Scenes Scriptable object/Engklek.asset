@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Engklek
   m_EditorClassIdentifier: 
   sceneTitle: Engklek
-  sceneImage: {fileID: 0}
+  sceneImage: {fileID: 21300000, guid: 886c378cc03e6bd4280dc1e5b4105405, type: 3}
   sceneDescription: Engklek adalah permainan tradisional yang melibatkan melompat
     dan menginjak pola-pola yang digambar di tanah dengan menggunakan satu kaki.
     Pemain harus melompati pola dengan lancar tanpa menyentuh garis atau keluar dari

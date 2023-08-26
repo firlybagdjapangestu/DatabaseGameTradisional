@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Barrier
   - Gasing
+  - GameManager
   layers:
   - Default
   - TransparentFX

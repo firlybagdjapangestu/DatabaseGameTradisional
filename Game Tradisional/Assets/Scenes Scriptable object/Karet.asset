@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff8b7512c4de7d2459dcee203b7dee4f, type: 3}
   m_Name: Karet
   m_EditorClassIdentifier: 
-  sceneTitle: Karet
-  sceneImage: {fileID: 0}
+  sceneTitle: AduBijiKaret
+  sceneImage: {fileID: 21300000, guid: 84d1ba732720d0141adc84b29fcf70f7, type: 3}
   sceneDescription: Adu biji karet adalah permainan tradisional yang dimainkan dengan
     menggunakan biji karet untuk saling memukul dan mengeluarkan biji karet lawan
     dari area permainan. Setiap pemain melempar biji karet mereka dan mencoba menghancurkan

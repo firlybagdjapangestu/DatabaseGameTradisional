@@ -8,6 +8,9 @@ public class EngklekController : MonoBehaviour
     [SerializeField] private float speed;
     [SerializeField] private GameObject engklek;
     [SerializeField] private EngklekManager engklekMenager;
+
+    [HideInInspector] public float dir = 1f;
+    [HideInInspector] public Transform spawnPos;
     private void Awake()
     {
         engklekMenager = FindObjectOfType<EngklekManager>();
@@ -15,7 +18,6 @@ public class EngklekController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
         speed = engklekMenager.speed;
     }
 
@@ -23,18 +25,24 @@ public class EngklekController : MonoBehaviour
     void Update()
     {
         engklek.transform.Translate(Vector2.down * speed * Time.deltaTime);
-        if (engklek.transform.position.y <= 70)
+        if (Vector2.Distance(engklek.transform.position, spawnPos.position) > 1500 && dir > 0)
         {
             ChangePlayer();
-            Destroy(gameObject);  
+            Destroy(gameObject);
+        }
+
+        if (Vector2.Distance(engklek.transform.position, spawnPos.position) > 2300 && dir < 0)
+        {
+            ChangePlayer();
+            Destroy(gameObject);
         }
     }
     public void TouchEngklek()
     {
         GameManager.instance.StartSfx(GameManager.instance.allSfx[1]);
-        engklekMenager.players[engklekMenager.playersTurn]++;
+        engklekMenager.scorePlayers[engklekMenager.playersTurn]++;
         engklekMenager.scoreText.text = 
-            "Skor\n" + engklekMenager.players[0].ToString() + " vs " + engklekMenager.players[1].ToString();
+            "Skor\n" + "P1 : " + engklekMenager.scorePlayers[0].ToString() + "\nP2 : " + engklekMenager.scorePlayers[1].ToString();
     }
 
     private void ChangePlayer()

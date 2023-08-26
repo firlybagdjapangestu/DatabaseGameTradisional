@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Gasing.unity
     guid: 3e7e166d0715d3246be55a7343017b3a
+  - enabled: 1
+    path: Assets/Scenes/AduBijiKaret.unity
+    guid: ac4544c558699a342993409394663331
   m_configObjects: {}
