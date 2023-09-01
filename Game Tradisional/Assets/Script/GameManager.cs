@@ -64,6 +64,11 @@ public class GameManager : MonoBehaviour
         
     }
 
+    public void QuitApplication()
+    {
+        Application.Quit();
+    }
+
     public void SetTimeScale(float  _scale)
     {
         Time.timeScale = _scale;
