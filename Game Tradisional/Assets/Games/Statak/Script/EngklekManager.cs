@@ -16,7 +16,8 @@ public class EngklekManager : MonoBehaviour
     public Text scoreText;
     [SerializeField] private GameObject[] engklekPrefabs;
     [SerializeField] private Transform[] panelSpawnTransform;
-    [SerializeField] private GameObject[] panelPlayerStage;
+    [SerializeField] private GameObject[] panelPlayerStage1;
+    [SerializeField] private GameObject[] panelPlayerStage2;
 
     [Space(5f)]
     [SerializeField] GameObject panelHelper;
@@ -37,10 +38,11 @@ public class EngklekManager : MonoBehaviour
     [SerializeField] private GameObject winnerPanel;
     [SerializeField] private TextMeshProUGUI characterWinnerText;
 
-
+    int indexObjectEngklek = 0 ;
     // Start is called before the first frame update
     void Start()
     {
+        indexObjectEngklek = Random.Range(0, engklekPrefabs.Length);
         currentLevel = 1;
         StartCoroutine(DelayStartGame());
     }
@@ -48,8 +50,48 @@ public class EngklekManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        InputControll();
     }
+
+    #region InputManager
+    void InputControll()
+    {
+        if (Input.touchCount > 0)
+        {
+            // Ambil posisi sentuhan pertama (bisa disesuaikan dengan indeks sesuai kebutuhan)
+            Touch touch = Input.GetTouch(0);
+
+            Vector2 touchPosition = touch.position;
+            Vector2 worldTouchPosition = Camera.main.ScreenToWorldPoint(touchPosition);
+            RaycastHit2D hit = Physics2D.Raycast(worldTouchPosition, Vector2.zero);
+            
+            if (hit.collider != null)
+            {
+                if (hit.collider.CompareTag("BoxEngklek"))
+                {
+                    AddScore(hit.collider);
+                }
+            }
+        }
+
+    }
+
+    void AddScore(Collider2D collider)
+    {
+        Color oriColor = collider.GetComponent<SpriteRenderer>().color;
+
+
+        collider.GetComponent<SpriteRenderer>().color = new Color(0f, 0f, 0f, 0.3f);
+        collider.GetComponent<BoxCollider2D>().enabled = false;
+
+        GameManager.instance.StartSfx(GameManager.instance.allSfx[1]);
+        scorePlayers[playersTurn]++;
+        scoreText.text =
+            "Skor\n" + "P1 : " + scorePlayers[0].ToString() + "\nP2 : " + scorePlayers[1].ToString();
+
+    }
+
+    #endregion
 
     #region StartReg
     private IEnumerator DelayStartGame()
@@ -67,8 +109,11 @@ public class EngklekManager : MonoBehaviour
     public void PlayerTurns()
     {
         playersTurn++;
-        panelPlayerStage[0].SetActive(true);
-        panelPlayerStage[1].SetActive(true);
+
+        foreach (GameObject item in panelPlayerStage1)
+            item.SetActive(true);
+        foreach (GameObject item in panelPlayerStage2)
+            item.SetActive(true);
 
         playerGuidePanel[0].SetActive(false);
         playerGuidePanel[1].SetActive(false);
@@ -138,23 +183,35 @@ public class EngklekManager : MonoBehaviour
         yield return new WaitForSeconds(0.2f);
 
         playerTurnText.SetActive(false);
-        GameObject tempObject = Instantiate(engklekPrefabs[Random.Range(0, engklekPrefabs.Length)], panelSpawnTransform[playersTurn]);
+        GameObject tempObject = Instantiate(engklekPrefabs[indexObjectEngklek], panelSpawnTransform[playersTurn]);
 
         float dir = 1f;
         if (playersTurn == 1)
             dir = -1;
 
 
-        tempObject.GetComponent<RectTransform>().eulerAngles = tempRot;
+        //tempObject.GetComponent<RectTransform>().eulerAngles = tempRot;
+        tempObject.transform.localScale = new Vector3(1f, dir, 0f);
         tempObject.GetComponent<EngklekController>().dir = dir;
         tempObject.GetComponent<EngklekController>().spawnPos = panelSpawnTransform[playersTurn];
 
-        panelPlayerStage[playersTurn].SetActive(false);
+        if (playersTurn == 0)
+        {
+            foreach (GameObject item in panelPlayerStage1)
+                item.SetActive(false);
+        }
+        else if (playersTurn == 1)
+        {
+            foreach (GameObject item in panelPlayerStage2)
+                item.SetActive(false);
+        }
+        
     }
 
     private void LevelUp()
     {
-        speed = speed + 100;
+        indexObjectEngklek = Random.Range(0, engklekPrefabs.Length);
+        speed = speed + 2;
     }
     #endregion
 

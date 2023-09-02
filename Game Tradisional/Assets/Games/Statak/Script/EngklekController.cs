@@ -24,18 +24,20 @@ public class EngklekController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        engklek.transform.Translate(Vector2.down * speed * Time.deltaTime);
-        if (Vector2.Distance(engklek.transform.position, spawnPos.position) > 1500 && dir > 0)
+        transform.Translate(Vector2.down * speed * dir * Time.deltaTime);
+
+        if (Vector2.Distance(engklekMenager.transform.position, this.transform.position) > 9f && this.transform.position.y < 0 && dir > 0)
         {
             ChangePlayer();
             Destroy(gameObject);
         }
 
-        if (Vector2.Distance(engklek.transform.position, spawnPos.position) > 2300 && dir < 0)
+        if (Vector2.Distance(engklekMenager.transform.position, this.transform.position) > 9f && this.transform.position.y > 0 && dir < 0)
         {
             ChangePlayer();
             Destroy(gameObject);
         }
+
     }
     public void TouchEngklek()
     {
