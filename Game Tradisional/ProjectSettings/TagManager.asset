@@ -8,6 +8,8 @@ TagManager:
   - Gasing
   - GameManager
   - BoxEngklek
+  - Boy
+  - Girl
   layers:
   - Default
   - TransparentFX
@@ -17,7 +19,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Ground
   - 
   - 
   - 
@@ -44,4 +46,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Environment
+    uniqueID: 623911137
+    locked: 0
+  - name: Boy
+    uniqueID: 335978637
     locked: 0
