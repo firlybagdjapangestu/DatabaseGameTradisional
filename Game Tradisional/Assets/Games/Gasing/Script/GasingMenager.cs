@@ -77,7 +77,6 @@ public class GasingMenager : MonoBehaviour
         AudioManager.Singleton.SetClipForce(clipWin);
 
         GameManager.instance.SetTimeScale(0f);
-
     }
 
     #endregion
